@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skeleton {
+    @apply bg-zinc-950 overflow-clip relative after:absolute after:w-full after:h-full after:bg-gradient-to-r after:from-transparent after:via-zinc-800 after:to-transparent after:-translate-x-full after:animate-[skeleton_2s_ease-in-out_infinite] rounded-lg;
+  }
+}
+
+@keyframes skeleton {
+  100% {
+    transform: translateX(100%);
+  }
+}
