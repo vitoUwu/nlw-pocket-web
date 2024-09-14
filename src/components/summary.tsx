@@ -1,6 +1,6 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import dayjs from "dayjs";
-import ptBR from "dayjs/locale/pt-BR";
+import ptBR from "dayjs/locale/pt-br";
 import { CheckCircle2, Plus, Trash } from "lucide-react";
 import { type SummaryResponse, getSummary } from "../http/get-summary";
 import { InOrbitIcon } from "./in-orbit-icon";
